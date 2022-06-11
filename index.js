@@ -1,9 +1,12 @@
 // 1. IMPORTACIONES
-import { sum, multiply } from "./lib/calculator.js";
+import { sum } from "./lib/calculator.js";
 
 // 2. VARIABLES
 const getResult = document.querySelector("#getResult");
 const result = document.querySelector("#result");
+const form = document.querySelector("form");
+
+const test = "test";
 
 // 3. EVENTS
 getResult.addEventListener("click", (e) => {
