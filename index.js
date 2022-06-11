@@ -6,8 +6,6 @@ const getResult = document.querySelector("#getResult");
 const result = document.querySelector("#result");
 const form = document.querySelector("form");
 
-const test = "test";
-
 // 3. EVENTS
 getResult.addEventListener("click", (e) => {
   e.preventDefault();
